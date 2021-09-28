@@ -5,15 +5,23 @@ from firebase import firebase
 #Connect to to database
 firebase = firebase.FirebaseApplication('Database URL', None)
 
-#create a dictionary of account data
+# Create a dictionary of account data
+account_data={
+  1340005:                  ,
+  1340006:                  ,
+  1340007:                  ,
+  1340008:                  ,
+  1340009:                   }
 
+# Create a variable "name" that holds the value "Bank"
+name = 
 
+# Assign "account_data" to a variable "data"
+data = 
 
-#Create variable for "name" that holds the value "bank"
+# Upload data to firebase
+firebase.put("",        ,        )
 
-#Assign "account_data" to a variable "data"
-
-#Upload data to firebase
 
 
 
